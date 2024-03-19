@@ -1,0 +1,10 @@
+Write a blog about objects and its internal representation in Javascript?
+
+1. Object is one of the part of JavaScript data types.
+2. It is used to store collection of values.
+3. JavaScript premitive datatypes i.e. Number, String, Boolean. 
+4. All datatypes are store in a single value.
+5. unassigned objects are null, undefined.
+6. Objects are complex.
+7. It store only values.
+8. It as an unordered collection of related data it reference type 'key: value' pair.

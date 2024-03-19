@@ -1,0 +1,17 @@
+Wite a blog on Difference between HTTP1.1 vs HTTP2?
+
+HTTP1.1:
+1. client for the request to server one by one search it allows and reuse the same TCP connection. 
+2. It is works on text format.
+3. It will resource to open a multiple of pages.
+4. client send another request donot complete our previous request it suffers issue called head 
+of line blocking.
+5. The block donot come wait for the previous request to complete same connection.
+
+HTTP2:
+1. It allows mulitple requests in single TCP connection sent the same server.
+2. It any line blocking of HTTP2 automatically research and to get response for client.
+3. It works on binary protocol.
+4. It use push frame by server that collection all multiple pages.
+5. It is very better performance and reduce latency comparatively HTTP1.1.
+6. To allow servers to send updates to the clients whenever new data is avaliable.
